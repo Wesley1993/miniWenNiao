@@ -1,5 +1,9 @@
 {
   "pages":[
+    "pages/home/home",
+    "pages/order/order",
+    "pages/orderDetail/orderDetail",
+    "pages/my/my",
     "pages/index/index",
     "pages/logs/logs"
   ],
