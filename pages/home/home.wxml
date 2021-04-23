@@ -1,2 +1,10 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<swiper class="" autoplay="false" 
+    current="0"  interval="5000" duration="1000" circular="true"
+ bindchange="" >
+    <swiper-item class="" item-id="">
+        <image style="width:100%;height:416rpx;display:block;" mode="aspectFit" src="https://img.wenniaolunch.com/banner.png" />
+    </swiper-item>
+      
+</swiper>
+  

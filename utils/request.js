@@ -2,7 +2,7 @@
 export const Http = ({ url, method = 'GET', data }) => {
   return new Promise((resolve, reject) => {
     wx.request({
-      url: tempUrl + url,
+      url: baseUrl + url,
       method: method,
       data: {
         ...data
